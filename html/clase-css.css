@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(176, 176, 176);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid rgb(155, 155, 155);
+    transition:all 1000ms ease;
+}
+
+p:nth-child(odd){
+    color:red;
+    text-align: center;
+}
+p:nth-child(even){
+    color:green;
+}
+p:nth-child(1){
+    color:blue;
+}
+
+/**
+    A partir de aqui, todo lo tenga que ver
+    con X o Y seccion
+*/
+div{
+    padding: 20px;
+    width: 50%;
+}
